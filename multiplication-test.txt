@@ -1,0 +1,30 @@
+#Variaveis
+SET 80h 7d
+SET 81h 10d
+SET FFh 1d
+
+#Resultado temp/final -> 82h
+#Contador -> 83h
+
+#Condicional da iteração:
+#"Avaliar iteração se contador é menor que o número de iterações máxima (81h)"
+LDA 81h
+SUB 83h
+JZ 14h
+
+#Operação de somas iterativas
+#Carregar contador e acrescentar +1
+LDA 83h
+ADD FFh
+STA 83h
+
+#Carregar resultado e acrescentar valor de 80h
+LDA 82h
+ADD 80h
+STA 82h
+
+#Voltar para o começo
+JMP 0h
+
+#Finalizar programa
+HLT
