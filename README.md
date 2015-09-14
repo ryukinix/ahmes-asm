@@ -48,7 +48,7 @@ Código Binário |Instrunção | Descrição da operação                      
 
 ## History
 
-Este programa foi feito originalmente como trabalho acadêmico da disciplina _Arquitetura e Organização de Computadores_,Lecionada pelo professor [Alexandre Beletti](https://github.com/rhiguita) na Universidade Federal do Pará, primeiro semestre do ano de 2015 no 2º período do curso de Engenharia da Computação.
+Este programa foi feito originalmente como trabalho acadêmico da disciplina _Arquitetura e Organização de Computadores_, Lecionada pelo professor [Alexandre Beletti](https://github.com/rhiguita) na Universidade Federal do Pará, primeiro semestre do ano de 2015 no 2º período do curso de Engenharia da Computação.
 
 ## Credits
 
