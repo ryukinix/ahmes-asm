@@ -17,7 +17,7 @@ Um exemplo de código-fonte com mnemônicos está neste repositório. Uma opera�
 
 Segue um resumo do conjunto de instrunções de arquitetura (ISA) da máquina Ahmes descrito na sua [wiki](https://pt.wikipedia.org/wiki/M%C3%A1quinas_hipot%C3%A9ticas_da_Universidade_Federal_do_Rio_Grande_do_Sul):
 
-Código Binário |Instrunção | Descrição da operação                        | Comentário
+Código Binário |Instrunção | Descrição da operação            | Comentário
 ---------------|-----------|----------------------------------|-------------------------------------------
   0000 0000    |  NOP      | nenhuma operação                 | nenhuma operação
   0001 0000    |  STA end  | MEM(end) ← AC                    | armazena acumulador no endereço de memória
