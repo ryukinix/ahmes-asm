@@ -11,7 +11,12 @@ Montador `assembler` para a arquitetura (ISA) da máquina hipotética [ahmes](ht
   * Debug:
     * `./ahmes-asm.out <código-fonte>.txt --debug`
 
-Um exemplo de código-fonte com mnemônicos está neste repositório. Uma operação de [multiplicação](multiplication-test.txt). Use sempre _line-endings_ _Unix_: `\n`.
+### General information
+
+  * Os endereços e valores podem ser finalizados em `d` ou `h`, indicando sua base númerica, respectivamente: decimal e hexadecimal. 
+  * Uma nova instrunção chamada de `SET` foi implementada para inserir um valor diretamente na memória. Sua estrutura é a seguinte: `SET end value`
+  * Um exemplo de código-fonte com mnemônicos está neste repositório. Uma operação de [multiplicação](multiplication-test.txt). 
+  * Ao codificar, para evitar problemas de sintaxe, lembre-se sempre de usar no seu editor de texto _line endings_ _Unix_: `\n`.
 
 ## ISA Ahmes
 
