@@ -4,19 +4,19 @@ Montador `assembler` para a arquitetura (ISA) da máquina hipotética [ahmes](ht
 
 ## Compiling && Usage
 
-  * Compilar:
+* Compilar:
     * `make`
-  * Usar:
+* Usar:
     * `./ahmes-asm.out <código-fonte>.txt`
-  * Debug:
+* Debug:
     * `./ahmes-asm.out <código-fonte>.txt --debug`
 
 ### General information
 
-  * Os endereços e valores podem ser finalizados em `d` ou `h`, indicando sua base númerica, respectivamente: decimal e hexadecimal. 
-  * Uma nova instrunção chamada de `SET` foi implementada para inserir um valor diretamente na memória. Sua estrutura é a seguinte: `SET end value`
-  * Um exemplo de código-fonte com mnemônicos está neste repositório. Uma operação de [multiplicação](multiplication-test.txt). 
-  * Ao codificar, para evitar problemas de sintaxe, lembre-se sempre de usar no seu editor de texto _line endings_ _Unix_: `\n`.
+* Os endereços e valores podem ser finalizados em `d` ou `h`, indicando sua base númerica, respectivamente: decimal e hexadecimal. 
+* Uma nova instrunção chamada de `SET` foi implementada para inserir um valor diretamente na memória. Sua estrutura é a seguinte: `SET end value`
+* Um exemplo de código-fonte com mnemônicos está neste repositório. Uma operação de [multiplicação](multiplication-test.txt). 
+* Ao codificar, para evitar problemas de sintaxe, lembre-se sempre de usar no seu editor de texto _line endings_ _Unix_: `\n`.
 
 ## ISA Ahmes
 
@@ -57,7 +57,7 @@ Este programa foi feito originalmente como trabalho acadêmico da disciplina _Ar
 
 ## Credits
 
-  * Eu (Manoel Vilela)
+* Eu (Manoel Vilela)
 
 ## License
 
@@ -65,8 +65,8 @@ Este programa foi feito originalmente como trabalho acadêmico da disciplina _Ar
 
 ## ROADMAP
 
-  - [X] Finalizar trabalho e entregá-lo
-  - [ ] Filtrar os warnings
-  - [ ] Fazer documentação oficial
+- [X] Finalizar trabalho e entregá-lo
+- [ ] Filtrar os warnings
+- [ ] Fazer documentação oficial
     - [ ] Traduzir todo o conteúdo para inglês
   
