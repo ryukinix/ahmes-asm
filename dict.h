@@ -1,30 +1,30 @@
 //mnemônicos: opcodes
 //A tabela será uma matriz de chars com 25 instrunções por 2: mnemonico, opcode.
 
-#define NOP "NOP", "0x0"
-#define STA "STA", "0x10"
-#define LDA "LDA", "0x20"
-#define ADD "ADD", "0x30"
-#define OR  "OR", "0x40"
-#define AND "AND", "0x50"
-#define NOT "NOT", "0x60"
-#define SUB "SUB", "0x70"
-#define JMP "JMP", "0x80"
-#define JN "JN", "0x90"
-#define JP "JP", "0x94"
-#define JV "JV", "0X98"
-#define JNV "JNV", "0x9C"
-#define JZ "JZ", "0xA0"
-#define JNZ "JNZ", "0xA4"
-#define JC "JC", "0xB0"
-#define JNC "JNC", "0xB4"
-#define JB "JB", "0xB8"
-#define JNB "JNB", "0xBC"
-#define SHR "SHR", "0xE0"
-#define SHL "SHL", "0xE1"
-#define ROR "ROR", "0xE2"
-#define ROL "ROL", "0xE3"
-#define HLT "HLT", "0xF0"
+#define NOP {"NOP", "0x0"}
+#define STA {"STA", "0x10"}
+#define LDA {"LDA", "0x20"}
+#define ADD {"ADD", "0x30"}
+#define OR { "OR", "0x40"}
+#define AND {"AND", "0x50"}
+#define NOT {"NOT", "0x60"}
+#define SUB {"SUB", "0x70"}
+#define JMP {"JMP", "0x80"}
+#define JN {"JN", "0x90"}
+#define JP {"JP", "0x94"}
+#define JV {"JV", "0X98"}
+#define JNV {"JNV", "0x9C"}
+#define JZ {"JZ", "0xA0"}
+#define JNZ {"JNZ", "0xA4"}
+#define JC {"JC", "0xB0"}
+#define JNC {"JNC", "0xB4"}
+#define JB {"JB", "0xB8"}
+#define JNB {"JNB", "0xBC"}
+#define SHR {"SHR", "0xE0"}
+#define SHL {"SHL", "0xE1"}
+#define ROR {"ROR", "0xE2"}
+#define ROL {"ROL", "0xE3"}
+#define HLT {"HLT", "0xF0"}
 //cabeçalho
 #define header {0x03, 0x41, 0x48, 0x4D}
 
